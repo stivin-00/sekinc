@@ -149,7 +149,7 @@ Stripe Styles
   background-size: 400% 400%;
   animation: change 20s ease-in-out infinite;
   position: fixed;
-  z-index: 8903689489;
+  z-index: 89;
   top: 0;
 }
 .nav-center {
@@ -349,7 +349,7 @@ Stripe Styles
 }
 .sidebar-wrapper.show {
   visibility: visible;
-  z-index: 9999999999999999999999;
+  z-index: 89;
   transform: scale(1);
 }
 .sidebar {
@@ -406,18 +406,18 @@ Stripe Styles
 }
 
 .small-contact {
-  z-index: 109090;
+  z-index: 20;
 }
 
 /* links */
 .submenu {
-  background: hsl(205, 90%, 88%);
+  background: hsl(357, 90%, 88%);
   box-shadow: var(--dark-shadow);
   position: fixed;
   top: 4rem !important;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 9999999999999999999999999999;
+  z-index: 91;
   display: none;
   padding: 2rem;
   border-radius: var(--radius);

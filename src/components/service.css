@@ -457,7 +457,7 @@
   flex-direction: row;
   background-color: #697b82f7;
   position: fixed;
-  z-index:99999;
+  z-index:29;
   top: 4rem;
   width: 100%;
 }
