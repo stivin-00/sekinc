@@ -461,9 +461,11 @@
   top: 4rem;
   width: 100%;
 }
-#btext{
-  width: 2rem;
-  font-size: 20px;
+.btext{
+  width: 4rem;
+  font-size: 17px;
+  position: absolute;
+  left: 0;
   text-transform: uppercase;
   color: red;
   font-weight: 600;

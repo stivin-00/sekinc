@@ -23,7 +23,7 @@ const Service = () => {
   return (
     <div>
       <div class="breaking-news-section">
-        <span id="btext">Offers</span>
+        <span className="btext">Offers</span>
         <marquee
           direction="left"
           onmouseover="this.stop()"
