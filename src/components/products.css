@@ -1,0 +1,229 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/*===== VARIABLES CSS =====*/
+:root {
+  --header-height: 3rem;
+
+  /*========== Colors ==========*/
+  --first-color: #069C54;
+  --first-color-alt: #048654;
+  --title-color: #393939;
+  --text-color: #707070;
+  --text-color-light: #A6A6A6;
+  --body-color: #FBFEFD;
+  --container-color: #FFFFFF;
+
+  /*========== Font and typography ==========*/
+  --body-font: 'Poppins', sans-serif;
+  --biggest-font-size: 2.25rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /*========== Margenes ==========*/
+  --mb-1: .5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+.aboutp hr{
+    font-size: 30rem;
+    width: 90%;
+    font-weight: bolder !important;
+}
+.abootpp h1{
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-bottom: -1.5rem;
+    top: 4rem;
+}
+
+@media screen and (min-width: 768px){
+  :root{
+    --biggest-font-size: 4rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+  }
+}
+
+/*========== BASE ==========*/
+*,::before,::after{
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+/*========== CLASS CSS ==========*/
+.sectionp{
+  padding: 4rem 0 2rem;
+}
+
+.section-titlep, .section-subtitlep{
+  text-align: center;
+}
+
+.section-titlep{
+  font-size: var(--h1-font-size);
+  color: var(--title-color);
+  margin-bottom: var(--mb-3);
+}
+
+.section-subtitlep{
+  display: block;
+  color: var(--first-color);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-1);
+}
+
+/*========== LAYOUT ==========*/
+.bd-containerp{
+  max-width: 960px;
+  width: calc(100% - 2rem);
+  margin-left: var(--mb-2);
+  margin-right: var(--mb-2);
+}
+
+.bd-gridp{
+  display: grid;
+  gap: 1.5rem;
+}
+
+.l-headerp{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+  background-color: var(--body-color);
+}
+
+
+
+
+
+/*========== BUTTONS ==========*/
+.buttonp{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #FFF;
+  padding: .75rem 1rem;
+  border-radius: .5rem;
+  transition: .3s;
+}
+
+.buttonp:hover{
+  background-color: var(--first-color-alt);
+}
+
+/*========== ABOUT ==========*/
+.about__datap{
+  text-align: center;
+}
+
+.about__description{
+  margin-bottom: var(--mb-3);
+}
+
+.about__imgp{
+  width: 230px;
+  border-radius: .5rem;
+  justify-self: center;
+}
+
+
+
+/*========== APP ==========*/
+.app__datap{
+  text-align: center;
+}
+
+.app__descriptionp{
+  margin-bottom: var(--mb-5);
+}
+
+.app__storesp{
+  margin-bottom: var(--mb-4);
+}
+
+.app__storep{
+  width: 120px;
+  margin: 0 var(--mb-1);
+}
+
+.app__imgp{
+  width: 220px;
+  justify-self: center;
+}
+
+
+
+/*========== MEDIA QUERIES ==========*/
+@media screen and (min-width: 576px){
+ 
+  .about__containerp,
+  .app__containerp{
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+  }
+
+  .about__datap, .about__initialp,
+  .app__datap, .app__initialp
+  {
+    text-align: initial;
+  }
+
+  .about__imgp, .app__imgp{
+    width: 300px;
+    order: -1;
+  }
+}
+@media screen and (min-width: 768px){
+
+
+  .sectionp{
+    padding-top: 8rem;
+  }
+
+ 
+
+  .app__storep{
+    margin: 0 var(--mb-1) 0 0;
+  }
+}
+
+@media screen and (min-width: 960px){
+  .bd-containerp{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+  .about__containerp,
+  .app__containerp{
+    column-gap: 7rem;
+  }
+}

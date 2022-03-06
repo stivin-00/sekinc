@@ -1,0 +1,588 @@
+
+
+.containert{
+    margin-top: 4rem;
+}
+
+
+
+.headingt{
+    text-transform: uppercase;
+    font-size: 3rem !important;
+    letter-spacing: 2px;
+    margin-right: -3px;
+    margin-bottom: 5rem;
+    text-align: center;
+    color: hsl(205, 86%, 17%) !important;
+    position: relative;
+}
+
+.headingt::after{
+    content: "";
+    width: 8rem;
+    height: .4rem !important;
+    background-color: #45e19f;
+    position: absolute;
+    bottom: -2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2rem;
+}
+.card-wrappert{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 1rem 3rem;
+}
+
+.cardt{
+    width: 100%;
+    background-color: #ebeef8;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 4rem;
+    box-shadow: .1rem .1rem .1rem rgba(0, 0, 0, 0.1);
+}
+.cardt .helllo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cardt .card-imgt{
+    width: 80%;
+    height: 18rem;
+    object-fit: cover;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+    margin-top: 1.5rem;
+}
+
+.profile-imgt{
+    width: 13rem;
+    height: 13rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -11rem;
+    z-index: 99;
+    border: .8rem solid #ebeef8;
+}
+.cardt h3{
+    font-size: 2rem;
+    color: #333;
+    margin: 1rem;
+
+}
+
+.job-titlet{
+    color: #777;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 2rem;
+
+}
+.aboutt{
+    font-size: 1.2rem;
+    margin: .5rem 0;
+    font-style: italic;
+    text-align: center;
+    color: #333;
+}
+
+.cardt .btnt{
+    padding: .5rem 1.2rem;
+    background-color: #445ae3;
+    border-radius: 2rem;
+    margin: .5rem 0;
+    text-transform: uppercase;
+    color: #eee;
+    font-size: 1rem;
+    transition: all .5s;
+}
+
+.cardt .btnt:hover{
+    transform: translateY(-2px);
+    box-shadow: .5rem .5rem 2rem rgba(0, 0, 0, .2);
+}
+
+.cardt .btnt:active{
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+.social-mediat{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: .5rem 0;
+    margin-top: 2rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.social-mediat i{
+    font-size: 2rem;
+
+}
+.fa-facebook-square{
+    color: #3b5999;
+}
+.fa-twitter-square{
+    color: #55acee;
+}
+.social-mediat .fa-instagram{
+    color: #e66836;
+}
+.social-mediat .fa-whatsapp{
+    color: #09d699;
+}
+
+
+.fa-facebook-square:hover,
+.fa-twitter-square:hover,
+.fa-instagram:hover,
+.fa-whatsapp:hover{
+    color: #61edb2;
+}
+
+
+@media(max-width:900px){
+
+    .headingt{
+        text-transform: uppercase;
+        font-size: 2.2rem !important;
+        letter-spacing: 1.5px;
+        margin-right: -3px;
+        margin-bottom: 4rem;
+        text-align: center;
+        color: #333;
+        position: relative;
+    }
+    
+    .headingt::after{
+        content: "";
+        width: 7rem;
+        height: .4rem;
+        background-color: #45e19f;
+        position: absolute;
+        bottom: -2rem;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 2rem;
+    }
+    .card-wrappert{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        margin: 1rem 3rem;
+    }
+    
+    .cardt{
+        width: 100%;
+        background-color: #ebeef8;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+        align-items: center;
+        justify-content: center;
+        margin: 2rem 3rem;
+        box-shadow: .1rem .1rem .1rem rgba(0, 0, 0, 0.1);
+    }
+    .cardt .helllo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .cardt .card-imgt{
+        width: 87%;
+        height: 17rem;
+        object-fit: cover;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+        margin-top: 1.5rem;
+    }
+    
+    .profile-imgt{
+        width: 13rem;
+        height: 13rem;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-top: -11rem;
+        z-index: 99;
+        border: .5rem solid #ebeef8;
+    }
+    .cardt h3{
+        font-size: 1.9rem;
+        color: #333;
+        margin: 1rem;
+    
+    }
+    
+    .job-titlet{
+        color: #777;
+        font-size: 1.4rem;
+        font-weight: 300;
+        margin-top: 2rem;
+    
+    }
+    .aboutt{
+        font-size: 1.1rem;
+        margin: .4rem 0;
+        font-style: italic;
+        text-align: center;
+        color: #333;
+    }
+    
+    .cardt .btnt{
+        padding: .4rem 1.1rem;
+        background-color: #445ae3;
+        border-radius: 2rem;
+        margin: .4rem 0;
+        text-transform: uppercase;
+        color: #eee;
+        font-size: .9rem;
+        transition: all .5s;
+    }
+    
+    .cardt .btnt:hover{
+        transform: translateY(-2px);
+        box-shadow: .4rem .4rem 1.8rem rgba(0, 0, 0, .2);
+    }
+    
+    .cardt .btnt:active{
+        transform: translateY(0);
+        box-shadow: none;
+    }
+    
+    .social-mediat{
+        width: 100%;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        padding: .5rem 0;
+        margin-top: 1.5rem;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .social-mediat i{
+        font-size: 1.5rem;
+    
+    }
+    .fa-facebook-square{
+        color: #3b5999;
+    }
+    .fa-twitter-square{
+        color: #55acee;
+    }
+    .social-mediat .fa-instagram{
+        color: #e66836;
+    }
+    .social-mediat .fa-whatsapp{
+        color: #09d699;
+    }
+    
+    
+    .fa-facebook-square:hover,
+    .fa-twitter-square:hover,
+    .fa-instagram:hover,
+    .fa-whatsapp:hover{
+        color: #61edb2;
+    }
+}
+
+@media(max-width:700px){
+    
+    .headingt{
+        text-transform: uppercase;
+        font-size: 2.1rem !important;
+        letter-spacing: 1.4px;
+        margin-right: -3px;
+        margin-bottom: 4rem;
+        text-align: center;
+        color: #333;
+        position: relative;
+    }
+    
+    .headingt::after{
+        content: "";
+        width: 7rem;
+        height: .4rem;
+        background-color: #45e19f;
+        position: absolute;
+        bottom: -2rem;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 2rem;
+    }
+    .card-wrappert{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        margin: 1rem 2rem;
+    }
+    
+    .cardt{
+        width: 100%;
+        background-color: #ebeef8;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.3rem;
+        align-items: center;
+        justify-content: center;
+        margin: 2rem 2rem;
+        box-shadow: .1rem .1rem .1rem rgba(0, 0, 0, 0.1);
+    }
+    .cardt .helllo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .cardt .card-imgt{
+        width: 94%;
+        height: 17rem;
+        object-fit: cover;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+        margin-top: 1.5rem;
+    }
+    
+    .profile-imgt{
+        width: 11rem;
+        height: 11rem;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-top: -11rem;
+        z-index: 99;
+        border: .35rem solid #ebeef8;
+    }
+    .cardt h3{
+        font-size: 1.8rem;
+        color: #333;
+        margin: .9rem;
+    
+    }
+    
+    .job-titlet{
+        color: #777;
+        font-size: 1.3rem;
+        font-weight: 300;
+        margin-top: 2rem;
+    
+    }
+    .aboutt{
+        font-size: 1.0rem;
+        margin: .35rem 0;
+        font-style: italic;
+        text-align: center;
+        color: #333;
+    }
+    
+    .cardt .btnt{
+        padding: .35rem 1.05rem;
+        background-color: #445ae3;
+        border-radius: 2rem;
+        margin: .3rem 0;
+        text-transform: uppercase;
+        color: #eee;
+        font-size: .9rem;
+        transition: all .5s;
+    }
+    
+    .cardt .btnt:hover{
+        transform: translateY(-2px);
+        box-shadow: .4rem .4rem 1.8rem rgba(0, 0, 0, .2);
+    }
+    
+    .cardt .btnt:active{
+        transform: translateY(0);
+        box-shadow: none;
+    }
+    
+    .social-mediat{
+        width: 100%;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        padding: .5rem 0;
+        margin-top: 1rem;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .social-mediat i{
+        font-size: 1.5rem;
+    
+    }
+    .fa-facebook-square{
+        color: #3b5999;
+    }
+    .fa-twitter-square{
+        color: #55acee;
+    }
+    .social-mediat .fa-instagram{
+        color: #e66836;
+    }
+    .social-mediat .fa-whatsapp{
+        color: #09d699;
+    }
+    
+    
+    .fa-facebook-square:hover,
+    .fa-twitter-square:hover,
+    .fa-instagram:hover,
+    .fa-whatsapp:hover{
+        color: #61edb2;
+    }
+}
+
+@media(max-width:480px){
+  .headingt{
+        text-transform: uppercase;
+        font-size: 1.3rem !important;
+        letter-spacing: 1px;
+        margin-right: -3px;
+        margin-bottom: 2rem;
+        text-align: center;
+        color: #333;
+        position: relative;
+    }
+    
+    .headingt::after{
+        content: "";
+        width: 2rem;
+        height: .2rem;
+        background-color: #45e19f;
+        position: absolute;
+        bottom: -2rem;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 2rem;
+    }
+    .card-wrappert{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        margin: 1rem 2rem;
+    }
+    
+    .cardt{
+        width: 100%;
+        background-color: #ebeef8;
+        display: grid;
+        grid-template-columns: 1fr ;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 1rem;
+        box-shadow: .1rem .1rem .1rem rgba(0, 0, 0, 0.1);
+    }
+    .cardt .helllo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .cardt .card-imgt{
+        width: 94%;
+        height: 17rem;
+        object-fit: cover;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+        margin-top: 1.5rem;
+    }
+    
+    .profile-imgt{
+        width: 11rem;
+        height: 11rem;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-top: -11rem;
+        z-index: 99;
+        border: .35rem solid #ebeef8;
+    }
+    .cardt h3{
+        font-size: 1.8rem;
+        color: #333;
+        margin: .9rem;
+        margin-bottom: 0 !important;
+    
+    }
+    
+    .job-titlet{
+        color: #777;
+        font-size: 1.3rem;
+        font-weight: 300;
+        margin-top: 0.1rem;
+    
+    }
+    .aboutt{
+        font-size: 1.0rem;
+        margin: .35rem 0;
+        font-style: italic;
+        text-align: center;
+        color: #333;
+    }
+    
+    .cardt .btnt{
+        padding: .35rem 1.05rem;
+        background-color: #445ae3;
+        border-radius: 2rem;
+        margin: .3rem 0;
+        text-transform: uppercase;
+        color: #eee;
+        font-size: .9rem;
+        transition: all .5s;
+    }
+    
+    .cardt .btnt:hover{
+        transform: translateY(-2px);
+        box-shadow: .4rem .4rem 1.8rem rgba(0, 0, 0, .2);
+    }
+    
+    .cardt .btnt:active{
+        transform: translateY(0);
+        box-shadow: none;
+    }
+    
+    .social-mediat{
+        width: 100%;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        padding: .5rem 0;
+        margin-top: 1rem;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .social-mediat i{
+        font-size: 1.5rem;
+    
+    }
+    .fa-facebook-square{
+        color: #3b5999;
+    }
+    .fa-twitter-square{
+        color: #55acee;
+    }
+    .social-mediat .fa-instagram{
+        color: #e66836;
+    }
+    .social-mediat .fa-whatsapp{
+        color: #09d699;
+    }
+    
+    
+    .fa-facebook-square:hover,
+    .fa-twitter-square:hover,
+    .fa-instagram:hover,
+    .fa-whatsapp:hover{
+        color: #61edb2;
+    }
+}
