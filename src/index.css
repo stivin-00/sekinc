@@ -411,7 +411,7 @@ Stripe Styles
 
 /* links */
 .submenu {
-  background: hsl(357, 90%, 88%);
+  background: var(--clr-primary-9);
   box-shadow: var(--dark-shadow);
   position: fixed;
   top: 4rem !important;

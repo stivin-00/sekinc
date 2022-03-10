@@ -126,7 +126,7 @@ const Service = () => {
               <div className="back">
                 <h1 className="card_title">SHOPIFY</h1>
                 <p className="caption">
-                Want to sky-rocket your dropShiping business? welcome, we develop best shopify themes
+                Want to sky-rocket your dropShipping business? welcome, we develop best shopify themes
                 </p>
                 <button className="btn" onClick={openModal}>
                   More..

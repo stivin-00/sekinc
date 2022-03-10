@@ -138,15 +138,15 @@
     color: #e66836;
 }
 .social-mediat .fa-whatsapp{
-    color: #09d699;
+    color: #13a97c;
 }
 
 
-.fa-facebook-square:hover,
+.fa-linkedin:hover,
 .fa-twitter-square:hover,
 .fa-instagram:hover,
 .fa-whatsapp:hover{
-    color: #61edb2;
+    color: #37f8a8;
 }
 
 
