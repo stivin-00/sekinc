@@ -34,7 +34,7 @@ export const Products = () => {
                 
                         <h2 class="section-titlep about__initialp">eflix</h2>
                         <p class="about__descriptionp"> video streaming wibsite just like netflix but limited feature. got lots of awesome unique features, you can check it out below</p>
-                        <a href=''target="_blank" class="button btn">explore</a>
+                        <a href='https://eflixx.netlify.app/'target="_blank" class="button btn">explore</a>
                     </div>
 
                     <img src={picc65} alt="" class="about__imgp"/>
