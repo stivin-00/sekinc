@@ -3,7 +3,12 @@ import { Link } from 'react-router-dom';
 import picc4 from "../images/about.jpg"
 import picc5 from "../images/app1.png"
 import picc6 from "../images/app2.png"
-import picc7 from "../images/movil-app.png"
+import picc61 from "../images/sek-1.jpg"
+import picc62 from "../images/sek-2.jpg"
+import picc63 from "../images/sekde.png"
+import picc64 from "../images/sekam.png"
+import picc65 from "../images/sekef.png"
+import picc7 from "../images/apppp.svg"
 
 import "./products.css"
 
@@ -16,45 +21,56 @@ export const Products = () => {
                 <div class="about__containerp  bd-gridp">
                     <div class="about__datap">
                 
-                        <h2 class="section-titlep about__initialp">Austinos</h2>
-                        <p class="about__descriptionp">We cook the best food in the entire city, with excellent customer service, the best meals and at the best price, visit us.</p>
-                        <Link to="/" class="button btn">explore</Link>
+                        <h2 class="section-titlep about__initialp">e-shop</h2>
+                        <p class="about__descriptionp"> A multi sellers eccomerce website. where sellers have full access to managing their products and buyergets awesome ui/ux experience.</p>
+                        <a href='https://amazone-shop.herokuapp.com/'target="_blank" class="button btn">explore</a>
                     </div>
 
-                    <img src={picc4} alt="" class="about__imgp"/>
+                    <img src={picc64} alt="" class="about__imgp"/>
                 </div>
                 <hr/>
                 <div class="about__containerp  bd-gridp">
                     <div class="about__datap">
                 
-                        <h2 class="section-titlep about__initialp">Austinos</h2>
-                        <p class="about__descriptionp">We cook the best food in the entire city, with excellent customer service, the best meals and at the best price, visit us.</p>
-                        <Link to="/" class="button btn">explore</Link>
+                        <h2 class="section-titlep about__initialp">eflix</h2>
+                        <p class="about__descriptionp"> video streaming wibsite just like netflix but limited feature. got lots of awesome unique features, you can check it out below</p>
+                        <a href=''target="_blank" class="button btn">explore</a>
                     </div>
 
-                    <img src={picc4} alt="" class="about__imgp"/>
+                    <img src={picc65} alt="" class="about__imgp"/>
                 </div>
                 <hr/>
                 <div class="about__containerp  bd-gridp">
                     <div class="about__datap">
                 
-                        <h2 class="section-titlep about__initialp">Austinos</h2>
-                        <p class="about__descriptionp">We cook the best food in the entire city, with excellent customer service, the best meals and at the best price, visit us.</p>
-                        <Link to="/" class="button btn">explore</Link>
+                        <h2 class="section-titlep about__initialp">decool</h2>
+                        <p class="about__descriptionp">fully functional ecomerce webapp with coupon rating payment, pay on delivery features. you can try it out below</p>
+                        <a href='https://decoooo.netlify.app/'target="_blank" class="button btn">explore</a>
                     </div>
 
-                    <img src={picc4} alt="" class="about__imgp"/>
+                    <img src={picc63} alt="" class="about__imgp"/>
                 </div>
                 <hr/>
                 <div class="about__containerp  bd-gridp">
                     <div class="about__datap">
                 
-                        <h2 class="section-titlep about__initialp">Austinos</h2>
-                        <p class="about__descriptionp">We cook the best food in the entire city, with excellent customer service, the best meals and at the best price, visit us.</p>
-                        <Link to="/" class="button btn">explore</Link>
+                        <h2 class="section-titlep about__initialp">divante-fx</h2>
+                        <p class="about__descriptionp">We help people increase their revenue. Our team of unique specialist can help you achieve your finacial goals</p>
+                        <a href='https://floating-island-43554.herokuapp.com/'target="_blank" class="button btn">explore</a>
                     </div>
 
-                    <img src={picc4} alt="" class="about__imgp"/>
+                    <img src={picc61} alt="" class="about__imgp"/>
+                </div>
+                <hr/>
+                <div class="about__containerp  bd-gridp">
+                    <div class="about__datap">
+                
+                        <h2 class="section-titlep about__initialp">tour-9ja</h2>
+                        <p class="about__descriptionp">A social website where users get to explore Nigeria and share their experience with the world.</p>
+                        <a href='https://dry-gorge-75428.herokuapp.com/'target="_blank" class="button btn">explore</a>
+                    </div>
+
+                    <img src={picc62} alt="" class="about__imgp"/>
                 </div>
                 <hr/>
             </section>
@@ -64,8 +80,8 @@ export const Products = () => {
                 <div class="app__containerp bd-gridp">
                     <div class="app__datap">
           
-                        <h2 class="section-titlep app__initialp">App is aviable</h2>
-                        <p class="app__descriptionp">Find our application and download it, you can make reservations, food orders, see your deliveries on the way and much more.</p>
+                        <h2 class="section-titlep app__initialp">App Is Coming Soon</h2>
+                        <p class="app__descriptionp">Find our application and download it.</p>
                         <div class="app__storesp">
                         <Link to="/"><img src={picc5} alt="" class="app__storep"/></Link>
                             <Link to="/"><img src={picc6} alt="" class="app__storep"/></Link>
