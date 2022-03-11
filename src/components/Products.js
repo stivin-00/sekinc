@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import picc4 from "../images/about.jpg"
 import picc5 from "../images/app1.png"
 import picc6 from "../images/app2.png"
 import picc61 from "../images/sek-1.jpg"
