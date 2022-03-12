@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className="nav-center">
         <div className="nav-header">
           <Link to="/">
-            <h3>SEK-INC</h3>
+            <h3 className="animate__animated animate__jackInTheBox">SEK-INC</h3>
           </Link>
           <button className="btn toggle-btn" onClick={openSidebar}>
             <FaBars />

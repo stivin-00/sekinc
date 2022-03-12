@@ -106,7 +106,7 @@
   transform: rotateX(180deg);
 }
 .y .card_title{
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
   letter-spacing: .2px;
   text-transform: uppercase;
@@ -114,9 +114,9 @@
 }
 
 .y .card_titleyy{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
-    letter-spacing: .2px;
+    letter-spacing: .1px;
     text-transform: uppercase;
     display:none!important;
     color: hsl(205, 77%, 27%) !important;
@@ -182,7 +182,7 @@
       
       .title{
         font-family: 'Poppins', sans-serif;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 400;
         color: #fff;
         letter-spacing: 5px;
@@ -265,14 +265,14 @@
         display: none !important;
       }
       .y .card_titleyy{
-        font-size: 25px !important;
+        font-size: 23px !important;
         font-weight: 700;
         letter-spacing: .2px;
         text-transform: uppercase;
         display:block !important;
       }
       .y .caption{
-        font-size: 18px !important;
+        font-size: 16px !important;
         font-weight: 400 !;
         letter-spacing: .1px;
         margin: 10px 5px !important;
@@ -375,7 +375,7 @@
       }
       .y .front img{
         width: 100%;
-        height: 100%;
+        height: 20rem;
         object-fit: cover;
       }
       .y .back{
