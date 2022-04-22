@@ -20,9 +20,9 @@ export const Products = () => {
                 <div class="about__containerp  bd-gridp">
                     <div class="about__datap">
                 
-                        <h2 class="section-titlep about__initialp">e-shop</h2>
-                        <p class="about__descriptionp"> A multi sellers eccomerce website. where sellers have full access to managing their products and buyergets awesome ui/ux experience.</p>
-                        <a href='https://amazone-shop.herokuapp.com/'target="_blank" class="button btn">explore</a>
+                        <h2 class="section-titlep about__initialp">jumstore</h2>
+                        <p class="about__descriptionp"> A multi category eccomerce website. also has a mobile application for it too. built with React react Native and node</p>
+                        <a href='https://jumstore.netlify.app/'target="_blank" class="button btn">explore</a>
                     </div>
 
                     <img src={picc64} alt="" class="about__imgp"/>
