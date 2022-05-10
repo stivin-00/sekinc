@@ -8,6 +8,7 @@ import picc63 from "../images/sekde.png"
 import picc64 from "../images/sekam.png"
 import picc65 from "../images/sekef.png"
 import picc7 from "../images/apppp.svg"
+import picc8 from "../images/mycuu2.jpg"
 
 import "./products.css"
 
@@ -70,6 +71,17 @@ export const Products = () => {
                     </div>
 
                     <img src={picc62} alt="" class="about__imgp"/>
+                </div>
+                <hr/>
+                <div class="about__containerp  bd-gridp">
+                    <div class="about__datap">
+                
+                        <h2 class="section-titlep about__initialp">my-cura</h2>
+                        <p class="about__descriptionp">Android ecommerce app built with react native and redux. it has complete featres like sorting, notifications, order tracking, payment etc</p>
+                        <a href='https://files.fm/f/zbzwvdscn'target="_blank" class="button btn">download</a>
+                    </div>
+
+                    <img src={picc8} alt="" class="about__imgp"/>
                 </div>
                 <hr/>
             </section>
